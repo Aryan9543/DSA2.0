@@ -19,7 +19,13 @@ int main(){
         }
 
         //star pattern
-
+        int l = 1;
+        if(i>1){
+            while(l<=(i * 2 - 2)){
+                cout<<"*";
+                l++;
+            }
+        }
 
 
         //third triangle
